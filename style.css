@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(193, 196, 196);
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+
+.foodBlock img {
+    width: 300px;
+    filter: grayscale(10%);
+    border-radius: 5px;
+}
+
+.foodBlock img:hover {
+   filter: blur(2px);
+}
+
+
+.foodBlock {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.foodBlock-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bolder;
+    font-size: 34px;
+    transform: translate(-50%, -50%);
+    text-shadow: 10px 20px 10px black;
+}
+
+.addShedevr {
+    position: relative;
+    text-align: center;
+}
